@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rent-vs-Own</title>
+        <link rel="stylesheet" href="./index.css">
+        <script src="index.js" defer></script>
+    </head>
+<body>
+  <div class="container">
+    <h1>Real eyes realize real lies</h1>
+    <img class="ben" src="img/ben1.png" alt="Ben">
+    <p class="subheading">
+      Weigh the cost of rent vs home ownership
+    </p>
+    <p >
+     5% Cost of Home Ownership:
+    </p>
+    <p >
+      1% Maintenance
+    </p>
+    <p >
+      3% Cost of Capital
+     </p>
+     <p >
+      1% Property Tax
+     </p>
+  <form id="benForm">
+    <label for="monthlyRent">Monthly Rent:</label>
+    <input type="number" id="monthlyRent" name="monthlyRent" placeholder="Enter monthly rent" required>
+
+    <label for="purchasePrice2">Home Purchase Price:</label>
+    <input type="number" id="purchasePrice" name="purchasePrice" placeholder="Enter home purchase price" required>
+    <button type="button" onclick="benIndex()">What Does Ben Think?</button>
+</form>
+
+  <div id="result"></div>
+  </div>
+</body>
+</html>

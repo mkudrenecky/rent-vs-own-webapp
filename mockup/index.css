@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+#mortgageForm {
+    display: flex;
+    flex-direction: column; /* Set flex-direction to column for vertical layout */
+    max-width: 300px; /* Adjust the max-width as needed */
+    margin: auto; /* Center the form on the page */
+}
+#benForm {
+    display: flex;
+    flex-direction: column; /* Set flex-direction to column for vertical layout */
+    max-width: 300px; /* Adjust the max-width as needed */
+    margin: auto; /* Center the form on the page */
+}
+  
+.circle {
+    border: 1px solid #000000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .action {
+    margin: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  .ben {
+    max-width: 10%;
+    height: auto;
+    margin-bottom: 20px;
+}
