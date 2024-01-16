@@ -5,8 +5,9 @@ import Navbar from "./components/Navbar";
 import Result from "./components/Result";
 import SliderSelect from "./components/SliderSelect";
 import TenureSelect from "./components/TenureSelect";
-import BenIndex from "./components/BenIndex";
-import BenResult from "./components/BenResult";
+// import BenIndex from "./components/BenIndex";
+// import BenResult from "./components/BenResult";
+import SBarCharResult from "./components/SBarChartResult";
 
 function App() {
   const [data, setData] = useState({
@@ -28,10 +29,13 @@ function App() {
           </Grid>
           <Grid item xs={12} md={6}>
             <Result data={data} />
-            <Box sx={{ marginTop: 10 }}>
+            {/* <Box sx={{ marginTop: 10 }}>
               <BenResult data={data} />
+            </Box> */}
+            <Box sx={{ marginTop: 10 }}>
+              <SBarCharResult data={data} />
             </Box>
-            <BenIndex />
+            {/* <BenIndex /> */}
           </Grid>
         </Grid>
       </Container>

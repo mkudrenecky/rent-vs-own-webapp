@@ -13,7 +13,7 @@ const BenResult = ({ data }) => {
     labels: ["Cost of Ownership", "Monthly Rent"],
     datasets: [
       {
-        label: "Ratio of Home Ownership and Monthly Rent",
+        label: "Cost",
         data: [imputedRent, monthlyRent],
         backgroundColor: ["rgba(54, 162, 235, 0.2)", "rgba(255, 152, 0, 0.2)"],
         borderColor: ["rgba(54, 162, 235, 1)", "rgba(255, 152, 0, 1)"],
