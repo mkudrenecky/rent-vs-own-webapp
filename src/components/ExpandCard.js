@@ -37,11 +37,11 @@ export default function ExpandCard() {
                   Monthly Cost of Ownership is boiled down to 5% of the Home
                   Price
                 </p>
-                <li>3% is assumed for the cost of capital</li>
+                {/* <li>3% is assumed for the cost of capital</li>
                 <li>1% allocated to tax</li>
                 <li>1% for depreciation</li>
                 <li> expand </li>
-                <li>Add some links</li>
+                <li>Add some links</li> */}
               </Container>
             </CardContent>
           </Collapse>
