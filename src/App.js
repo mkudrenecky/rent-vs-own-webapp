@@ -8,6 +8,8 @@ import TenureSelect from "./components/TenureSelect";
 // import BenIndex from "./components/BenIndex";
 // import BenResult from "./components/BenResult";
 import SBarCharResult from "./components/SBarChartResult";
+import Collapsible from "react-collapsible";
+import ExpandCard from "./components/ExpandCard";
 
 function App() {
   const [data, setData] = useState({
@@ -21,9 +23,16 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Collapsible trigger="Click me to expand">
+        <p>
+          This is the collapsible content. It can be any element or React
+          component you like.
+        </p>
+      </Collapsible>
       <Container maxWidth="xl" sx={{ marginTop: 4 }}>
         <Grid container spacing={5} alignItems="top">
           <Grid item xs={12} md={6}>
+            <ExpandCard />
             <SliderSelect data={data} setData={setData} />
             <TenureSelect data={data} setData={setData} />
           </Grid>
