@@ -8,7 +8,7 @@ const Navbar = () => {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar>
-          <Typography variant="h5">Rent vs Own</Typography>
+          <Typography variant="h5">Rent vs Own Cost Comparison</Typography>
         </Toolbar>
       </Container>
     </AppBar>
