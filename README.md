@@ -8,6 +8,10 @@ Welcome to our Rent vs. Own Cost Comparison Web App! This application is designe
 
 Visit the web app [here!](https://amplify.d35xku6dxohz72.amplifyapp.com/)
 
+## Demo
+
+![Alt text](rent-vs-own-demo.gif)
+
 ## Motivation
 
 Feeling overwhelmed by the cost of rent is a common feeling in today's real estate landscape.
