@@ -23,12 +23,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Collapsible trigger="Click me to expand">
-        <p>
-          This is the collapsible content. It can be any element or React
-          component you like.
-        </p>
-      </Collapsible>
       <Container maxWidth="xl" sx={{ marginTop: 4 }}>
         <Grid container spacing={5} alignItems="top">
           <Grid item xs={12} md={6}>
@@ -37,14 +31,10 @@ function App() {
             <TenureSelect data={data} setData={setData} />
           </Grid>
           <Grid item xs={12} md={6}>
-            <Result data={data} />
-            {/* <Box sx={{ marginTop: 10 }}>
-              <BenResult data={data} />
-            </Box> */}
             <Box sx={{ marginTop: 10 }}>
               <SBarCharResult data={data} />
             </Box>
-            {/* <BenIndex /> */}
+            <Result data={data} />
           </Grid>
         </Grid>
       </Container>

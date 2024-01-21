@@ -17,7 +17,7 @@ export default function ExpandCard() {
       {/* <Card sx={{ minWidth: 300, border: "1px solid rgba(211,211,211,0.6)" }}> */}
       <Card sx={{ minWidth: 300 }}>
         <CardHeader
-          title="How do we determine if it is cheaper to rent or buy?"
+          title="How did we get there?"
           action={
             <IconButton
               onClick={() => setOpen(!open)}
@@ -37,11 +37,19 @@ export default function ExpandCard() {
                   Monthly Cost of Ownership is boiled down to 5% of the Home
                   Price
                 </p>
-                {/* <li>3% is assumed for the cost of capital</li>
+                <li>3% is assumed for the cost of capital</li>
                 <li>1% allocated to tax</li>
                 <li>1% for depreciation</li>
-                <li> expand </li>
-                <li>Add some links</li> */}
+                <p>
+                  Just ask{" "}
+                  <a
+                    href="https://www.pwlcapital.com/rent-or-own-your-home-5-rule/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ben!
+                  </a>
+                </p>
               </Container>
             </CardContent>
           </Collapse>
