@@ -25,24 +25,6 @@ export default function InputSlider({
   onBlur,
   onInputChange,
 }) {
-  //const [setValue] = React.useState(defaultValue);
-
-  //   const handleSliderChange = (event, newValue) => {
-  //     setValue(newValue);
-  //   };
-
-  //   const handleInputChange = (event) => {
-  //     setValue(event.target.value === "" ? 0 : Number(event.target.value));
-  //   };
-
-  //   const handleBlur = () => {
-  //     if (value < 0) {
-  //       setValue(0);
-  //     } else if (value > 100) {
-  //       setValue(100);
-  //     }
-  //   };
-
   return (
     <Stack my={1.4}>
       <Stack gap={1}>
