@@ -79,7 +79,7 @@ const SBarCharResult = ({ data }) => {
   return (
     <Stack gap={3}>
       <Typography textAlign="center" variant="h4">
-        Rent vs Own
+        Cost Breakdown
       </Typography>
       <Typography textAlign="center" variant="h5">
         Monthly Rent: $ {monthlyRent.toFixed(2)}
