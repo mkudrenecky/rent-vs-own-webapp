@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Rent vs Own Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Welcome to our Rent vs. Own Cost Comparison Web App! This application is designed to help users make informed decisions about housing options by comparing the costs associated with renting versus owning a home. Whether you are a prospective homebuyer or considering renewing your lease, this app provides a snapshot analysis to guide your decision-making process.
 
-In the project directory, you can run:
+## It's Live!
 
-### `npm start`
+Visit the web app [here!](https://amplify.d35xku6dxohz72.amplifyapp.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Motivation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Feeling overwhelmed by the cost of rent is a common feeling in today's real estate landscape.
+People tend to gravitate towards believing home ownership is the salvation to increasing rent prices.
+This turns out to not always be the case.
+This app aims to help users understand the costs of home ownership and get a sense if a rental may be a better suited option.
 
-### `npm test`
+Upon visiting some resources such as the [wowa cost calculator](https://wowa.ca/calculators/rent-vs-buy-calculator), I felt like there were missing pieces. It was unclear how costs were being calculated and it did not consider the trade-off of having your capital tied up in a home vs being invested elsewhere.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This led me to [Ben Felix](https://www.pwlcapital.com/rent-or-own-your-home-5-rule/). Ben considers the cost of having your capital tied up in a home, the cost of depreciation and maintenance, and the cost of tax. His conservative estimates boil the cost of home ownership as 5% of the price of the home. A pretty (overly) simple benchmark as a jumping off point in this weighty decision. Why not give users an interactive experience where they can make adjustments in their rental costs and home ownership costs to
 
-### `npm run build`
+## Tech
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](https://skills.thijs.gg/icons?i=js,html,css,react)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Feedback
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We value your feedback! If you encounter any issues or have suggestions for improvement, please [open an issue](https://github.com/mkudrenecky/rent-vs-own-webapp/issues/new) on our GitHub repository. We're committed to enhancing the user experience and making this tool as helpful as possible.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy home decision-making! 🏡✨

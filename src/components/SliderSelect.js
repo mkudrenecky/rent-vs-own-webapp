@@ -1,5 +1,6 @@
 import React from "react";
 import SliderComponent from "./common/SliderComponent";
+import InputSlider from "./common/InputSlider";
 
 const SliderSelect = ({ data, setData }) => {
   const bank_limit = 1000000;
@@ -76,12 +77,19 @@ const SliderSelect = ({ data, setData }) => {
         value={data.interestRate}
       />
 
-      <SliderComponent
+      <InputSlider
         className="rentSlider"
         onChange={(e, value) => {
           setData({
             ...data,
             monthlyRent: value,
+          });
+        }}
+        onInputChange={(event, value) => {
+          setData({
+            ...data,
+            monthlyRent:
+              event.target.value === "" ? 0 : Number(event.target.value),
           });
         }}
         defaultValue={data.monthlyRent}
