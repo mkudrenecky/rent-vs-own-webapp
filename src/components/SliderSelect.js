@@ -25,6 +25,32 @@ const SliderSelect = ({ data, setData }) => {
         value={data.homeValue}
       />
 
+      <InputSlider
+        className="rentSlider"
+        onChange={(e, value) => {
+          setData({
+            ...data,
+            monthlyRent: value,
+          });
+        }}
+        onInputChange={(event, value) => {
+          setData({
+            ...data,
+            monthlyRent:
+              event.target.value === "" ? 0 : Number(event.target.value),
+          });
+        }}
+        defaultValue={data.monthlyRent}
+        min={0}
+        max={5000}
+        steps={100}
+        unit="$"
+        amount={data.monthlyRent}
+        label="Monthly Rent"
+        value={data.monthlyRent}
+        color="warning"
+      />
+
       <SliderComponent
         onChange={(e, value) =>
           setData({
@@ -75,32 +101,6 @@ const SliderSelect = ({ data, setData }) => {
         amount={data.interestRate}
         label="Interest Rate"
         value={data.interestRate}
-      />
-
-      <InputSlider
-        className="rentSlider"
-        onChange={(e, value) => {
-          setData({
-            ...data,
-            monthlyRent: value,
-          });
-        }}
-        onInputChange={(event, value) => {
-          setData({
-            ...data,
-            monthlyRent:
-              event.target.value === "" ? 0 : Number(event.target.value),
-          });
-        }}
-        defaultValue={data.monthlyRent}
-        min={0}
-        max={5000}
-        steps={100}
-        unit="$"
-        amount={data.monthlyRent}
-        label="Monthly Rent"
-        value={data.monthlyRent}
-        color="warning"
       />
     </div>
   );
